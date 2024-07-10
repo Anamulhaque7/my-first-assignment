@@ -49,10 +49,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.09);
-    background-blend-mode:overlay;
     width: 1200px;
-    height: 650px;
+    height: 500px;
     margin: 0px auto;
 }
 
@@ -64,8 +62,8 @@ body {
 }
 
 .developer-1-banner-font-imge img {
-    width: 400px;
-    height: 380px;
+    width: 250px;
+    height: 250px;
 }
 
 .developer-1-banner h1 {
@@ -77,11 +75,103 @@ body {
 .developer-1-banner button {
     padding: 13px;
     border: none;
-    background-color: #0D1321;
     color: #ffffff;
     font-weight: 200;
     border-radius: 5px;
     margin: 30px 0px;
+    background-color: #0D1321;
 }
 
-/* developer-section-1-container stert here */
+/* developer-section-1-container ends here */
+
+/* why-web-development section start here  */
+#why-web-development {
+    width: 1200px;
+    height: 800px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    background-color: #adc8f71f;
+    
+}
+
+.why-web-developement {
+    width: 800px;
+    height: 100px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 50px;
+}
+
+.why-web-developement h1 {
+    font-size: 35px;
+    margin: 30p 0px;
+}
+.banner-button{
+    padding: 5px 15px;
+    margin: 20px 0px;
+}
+
+
+.why-web-developement p {
+    font-size: 10px;
+    margin: 20px 0px;
+
+}
+ .codding-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 800px;
+    height: 200px;
+    margin: 0px auto;
+    margin-top: 25px; 
+
+}
+.codding-banner-left h1{
+    font-size: 15px;
+    text-align: left;
+    line-height: 30px;
+    color: #0D1321;
+    font-weight: 600;
+
+}
+
+.codding-banner-left p{
+    font-size: 10px;
+    margin: 10px 0px;
+}
+.web-system{
+    width: 800px;
+    height: 200px;
+    margin: 0px auto;
+    display: flex;
+    margin-top: 40px;
+}
+
+.web-system-left-imge {
+    width: 30%;
+    height: 100%;
+}
+
+.web-system-right-content {
+    width: 70%;
+    height: 100%;
+    padding:40px 0px 0px 60px ;
+}
+
+.web-system-right-content h1{
+    font-size: 15px;
+    line-height: 30px;
+    color: #0D1321;
+
+}
+
+.web-system-right-content p{
+    font-size: 10px;
+    color: #0d1321c4;
+
+}
+
+
+/* why-web-development section ends here  */
