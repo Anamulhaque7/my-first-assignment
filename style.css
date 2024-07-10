@@ -181,10 +181,11 @@ body {
 
 /* my inspiration section start here */
 #my-inspiration-section-container {
-    width: 800px;
-    height: 700px;
+    width: 1200px;
+    height: 650px;
     margin: 0px auto;
 }
+
 .inspiration-content {
     height: 200;
     width: 600px;
@@ -194,27 +195,110 @@ body {
     text-align: center;
     justify-items: center;
 }
-.inspiration-content h1{
+
+.inspiration-content h1 {
     font-size: 32px;
     font-weight: 900;
 }
 
-.inspiration-content p{
+.inspiration-content p {
     font-size: 16px;
     color: #0d1321b5;
     margin: 30px 0px;
 }
-.inspiration-video{
+
+.inspiration-video {
     width: 800px;
     height: auto;
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
-
+    border: 1px solid #0d132139;
+    padding: 30px 0px;
+    border-radius: 5px;
+    margin: 0px auto;
 }
-.inspiration-video video{
+
+.inspiration-video video {
     border-radius: 5px;
 }
 
-
 /* my inspiration section ends here */
+
+/* my-target section start here */
+#my-current-target-container {
+    height: 500px;
+    width:1200px;
+    margin: 0px auto;
+}
+.my-target-content{
+    width: 600px;
+    height: 160px;
+    margin: 0px auto;
+    text-align: center;
+}
+.my-target-content h1{
+    font-size: 30px;
+    font-weight: 900;
+    margin: 30px 0px;
+}
+.my-target-content p{
+    font-size: 16px;
+    color: #0d132189;
+}
+.my-target-content-box{
+    width: 800px;
+    height: 300px;
+    margin: 0px auto;
+    display: flex;
+    gap: 20px;
+}
+.content-box-html{
+    background-color: #ff4b1e22;
+    width: 33%;
+    height: 90%;
+    border-radius: 10px;
+}
+
+.content-box-css{
+    background-color: #004de862;
+    width: 33%;
+    height: 90%;
+    border-radius: 10px;
+}
+
+.content-box-js{
+    background-color: #ffdd0037;
+    width: 33%;
+    height: 90%;
+    border-radius: 10px;
+}
+.box-icon{
+    margin: 20px 20px;
+}
+.box-text {
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+}
+.box-text h1{
+    color: #0D1321;
+    font-size: 24px;
+    margin: 10px 0px;
+}
+.box-text p{
+    font-size: 13px;
+    color: #0d132175;
+}
+.link {
+    margin: 40px 0px;
+    padding: 10px;
+}
+.link a{
+    font-size:15px ;
+    font-weight: bold;
+    color: #0D1321;
+}
+
+
+/* my-target section ends here */
